@@ -1,0 +1,22 @@
+/* GIT STASH CREATE  */ 
+git stash create
+
+/* GIT STASH SAVE  */
+git stash save "stash name"
+
+/* GIT STASH LIST */
+git stash list
+
+/* GIT STASH POP */
+git stash pop 
+git stash pop stash@{0}
+
+/* GIT STASH APPLY */
+git stash apply
+git stash apply stash@{0}
+
+/* GIT STASH CLEAR */
+git stash clear
+
+/* GIT STASH DROP */
+git stash drop
